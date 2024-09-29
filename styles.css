@@ -1,0 +1,308 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Ensuring both logos are displayed inline */
+.nav-flex {
+    display: flex;
+    align-items: center; /* Vertically aligns the logos */
+}
+
+/* If you want to add space between the logos */
+.nav-flex img {
+    margin-right: 20px; /* Adjust spacing between the two logos */
+}
+
+.nav-flex img:last-child {
+    margin-right: 0; /* Ensure no extra margin on the last logo */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:   
+ #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,   
+ 0.1);
+}
+.logo {
+    width: 4px; /* Set a maximum width to prevent it from getting too large */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.delivery-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.delivery-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Styling the Login/Signup button */
+.login-signup a {
+    display: inline-block;
+    padding: 10px 20px; /* Adds padding around the text */
+    background-color: #45a049; /* Blue background */
+    color: white; /* White text color */
+    font-size: 16px; /* Increases text size */
+    text-decoration: none; /* Removes the underline */
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+/* Hover effect to change background color and text color */
+.login-signup a:hover {
+    background-color: #45a049; /* Darker blue on hover */
+    color: #fff; /* Keeps text white */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increases shadow on hover */
+    transform: translateY(-3px); /* Lifts the button slightly */
+}
+
+
+.cart {
+    position: relative;
+}
+
+.cart img {
+    width: 25px;
+    height: 25px;
+}
+
+.cart span {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.category-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.category-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.category-dropdown li {
+    list-style: none;
+    padding: 10px;
+}
+
+.category-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.category-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+/* Responsive styles (optional) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .category-dropdown {
+        position: static;
+    }
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#report {
+    margin-top: 20px;
+}
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#input-section {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Chart styling */
+#waterChart {
+    max-width: 600px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+#output-section {
+    margin-top: 40px;
+    text-align: center;
+
+}
+/* Container to hold the button */
+.button-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the button */
+    align-items: center; /* Vertically centers if necessary */
+    height: 10vh; /* This is optional if you want it centered vertically as well */
+}
+
+/* Style for the button */
+#generate-pdf {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#generate-pdf:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
